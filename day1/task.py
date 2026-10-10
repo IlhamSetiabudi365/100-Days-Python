@@ -8,3 +8,20 @@ print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl." + "\n2. Knead
 
 #input will run and be shown on terminal first, then the system will concatenate 
 print("hello " + input("What is your name?\n") + "!")
+
+name = "ilham"
+print(name)
+
+name = input("nama?")
+print("hello " + name + "!")
+
+check_len = len(name)
+print(check_len)
+
+#excercise3
+glass1 = "milk"
+glass2 = "juice"
+
+temp = glass1
+glass1 = glass2
+glass2 = temp
